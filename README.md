@@ -5,8 +5,11 @@ Hukum aims to improve your development process with immediate feedback of the GA
 
 # Installation
 ```bash
-npm install hukum
+npm install --global hukum
+
+hukum
 ```
+
 # How it works?
 Hukum uses [Github Actions API](https://developer.github.com/v3/actions/) to get the related workflow to the recent git push and its status. It keeps on calling the APIs every 1 second to update the status on the terminal.
 
