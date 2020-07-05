@@ -1,7 +1,11 @@
+![npm (scoped)](https://img.shields.io/npm/v/hukum?label=NPM) ![NPM](https://img.shields.io/npm/l/hukum?label=License)
+
 # Hukum
 Hukum is an NPM module that prints Github Actions (GA) Workflow status in the terminal. It works for workflows that run when a commit is pushed to Github repo. Once a commit is pushed, Hukum will print status updates in realtime.
 
 Hukum aims to improve your development process with immediate feedback of the GA Workflow on your terminal.
+
+[![asciicast](https://asciinema.org/a/jfzmE59uet7d6DbB2C6Ob8Yj0.svg)](https://asciinema.org/a/jfzmE59uet7d6DbB2C6Ob8Yj0)
 
 # Installation
 ```bash
