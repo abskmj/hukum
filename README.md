@@ -5,7 +5,7 @@ Hukum is an NPM module that prints Github Actions (GA) Workflow status in the te
 
 Hukum aims to improve your development process with immediate feedback of the GA Workflow on your terminal.
 
-[![asciicast](https://asciinema.org/a/jfzmE59uet7d6DbB2C6Ob8Yj0.svg)](https://asciinema.org/a/jfzmE59uet7d6DbB2C6Ob8Yj0)
+![](.images/terminal.gif)
 
 # Installation
 ```bash
