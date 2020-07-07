@@ -1,6 +1,6 @@
 {
   "name": "hukum",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An NPM module that aims to improve your development process by printing the realtime status of Github Actions Workflow on your terminal.",
   "main": "index.js",
   "bin": {
