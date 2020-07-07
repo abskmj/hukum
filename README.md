@@ -55,3 +55,6 @@ You can follow these steps at [docs.github.com](https://docs.github.com/en/githu
 
 # Fixes & Improvements
 Head over to the issues tab at [github.com](https://github.com/abskmj/hukum/issues) to report a bug or suggest an improvement. Feel free to contribute to the code or documentation by raising a pull request.
+
+# Changelog
+Change log is available at [CHANGELOG.md](CHANGELOG.md)
