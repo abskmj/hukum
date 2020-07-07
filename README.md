@@ -33,7 +33,7 @@ Below is a sample output for one of the workflows.
 ```
 
 # Configuration
-Hukum can work out of the box without any configuration. However, it provides a few configuration options. Include a `.hukumrc` file in the root of the project with the following contents.
+Hukum can work out of the box without any configuration. However, it provides a few configuration options. Include a `.hukumrc` file in the root of the project with the following contents or set the below environment variables.
 
 ```json
 {
@@ -44,8 +44,13 @@ Hukum can work out of the box without any configuration. However, it provides a 
 ```
 
 ## Github Personal token
+```js
+// .hukumrc
+{ "github": { "token": "<token>" } }
 ```
-github.token
+```bash
+# environment variable
+HUKUM_GITHUB_TOKEN=<token>
 ```
 
 Hukum uses [Github Actions API](https://developer.github.com/v3/actions/). It is possible to use these APIs without any authentication for public repositories. However, for unauthenticated requests, the rate limit allows for up to 60 requests per hour (Details at [developer.github.com](https://developer.github.com/v3/#rate-limiting)) which can exhaust quickly. Authenticated requests have higher limits, up to 5000 requests per hour.
@@ -57,4 +62,4 @@ You can follow these steps at [docs.github.com](https://docs.github.com/en/githu
 Head over to the issues tab at [github.com](https://github.com/abskmj/hukum/issues) to report a bug or suggest an improvement. Feel free to contribute to the code or documentation by raising a pull request.
 
 # Changelog
-Change log is available at [CHANGELOG.md](CHANGELOG.md)
+The changelog is available at [CHANGELOG.md](CHANGELOG.md)

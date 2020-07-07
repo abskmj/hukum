@@ -11,8 +11,11 @@ Recent push didn't trigger a workflow
 ```
 Github personal token is not configured. Unauthenticated requests to github.com is limited to 60 requests per hour. Details at https://github.com/abskmj/hukum#github-personal-token.
 ```
-
+- Add an environment variable to configure a Github personal token
+```
+HUKUM_GITHUB_TOKEN
+```
 
 ## [1.0.0]
 ### Added
-- Created the NPM module
+- Add the NPM module
