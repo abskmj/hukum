@@ -2,13 +2,13 @@
   "name": "hukum",
   "version": "1.1.0",
   "description": "An NPM module that displays Github Action progress in the terminal and aims to improve your development experience by printing status in realtime.",
-  "keywords":[
+  "keywords": [
     "github-actions",
     "github-apis",
     "developer-tools",
     "developer-experience",
     "developer-productivity"
-    ],
+  ],
   "main": "index.js",
   "bin": {
     "hukum": "bin/cli.js"
