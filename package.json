@@ -1,7 +1,14 @@
 {
   "name": "hukum",
   "version": "1.1.0",
-  "description": "An NPM module that aims to improve your development process by printing the realtime status of Github Actions Workflow on your terminal.",
+  "description": "An NPM module that displays Github Action progress in the terminal and aims to improve your development experience by printing status in realtime.",
+  "keywords":[
+    "github-actions",
+    "github-apis",
+    "developer-tools",
+    "developer-experience",
+    "developer-productivity"
+    ],
   "main": "index.js",
   "bin": {
     "hukum": "bin/cli.js"
@@ -11,6 +18,7 @@
   },
   "author": "abskmj@gmail.com",
   "homepage": "https://github.com/abskmj/hukum",
+  "bugs": "https://github.com/abskmj/hukum/issues",
   "repository": "github:abskmj/hukum",
   "license": "MIT",
   "dependencies": {

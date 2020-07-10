@@ -1,9 +1,9 @@
-![npm (scoped)](https://img.shields.io/npm/v/hukum?label=NPM) ![NPM](https://img.shields.io/npm/l/hukum?label=License)
+![npm (scoped)](https://img.shields.io/npm/v/hukum?label=NPM) ![NPM](https://img.shields.io/npm/l/hukum?label=License) ![npm](https://img.shields.io/npm/dt/hukum?label=Downloads)
 
-# Hukum
-Hukum is an NPM module that prints Github Actions (GA) Workflow status in the terminal. It works for workflows that run when a commit is pushed to Github repo. Once a commit is pushed, Hukum will print status updates in realtime.
+# Hukum - Displays Github Action progress in terminal
+Hukum is an NPM module that displays Github Action (GA) progress in the terminal. It works for workflows that run when a commit is pushed to Github repo. Once a commit is pushed, Hukum will print status updates in realtime.
 
-Hukum aims to improve your development process with immediate feedback of the GA Workflow on your terminal.
+Hukum aims to improve your development experience with immediate feedback of the GA Workflow in your terminal.
 
 ![](.images/terminal.gif)
 
