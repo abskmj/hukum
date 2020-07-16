@@ -1,7 +1,12 @@
 # Changelog
 
-## [1.1.0]
+## [1.2.0]
+### Added
+- Add a Github Action workflow to mirror codebase to a private Gitlab repository.
+### Fixed
+- Fix invalid repo name when remote URL has `.git` string not at the end, e.g. `username.github.io`.
 
+## [1.1.0]
 ### Added
 - Add a message when a related workflow is not found.
 ```
