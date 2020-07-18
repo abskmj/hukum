@@ -56,7 +56,7 @@ HUKUM_GITHUB_TOKEN=<token>
 Hukum uses [Github Actions API](https://docs.github.com/en/rest/reference/actions). It is possible to use these APIs without any authentication for public repositories. However, for unauthenticated requests, the rate limit allows for up to 60 requests per hour (Details at [docs.github.com](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting)) which can exhaust quickly. Authenticated requests have higher limits, up to 5000 requests per hour.
 
 
-You can follow these steps at [docs.github.com](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) to create a personal token.
+You can follow these steps at [docs.github.com](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) to create a personal token. The token does not need to have any specific scope for public repositories. However, the token  needs to have `repo - Full control of private repositories` scope for private repositories.
 
 # Fixes & Improvements
 Head over to the issues tab at [github.com](https://github.com/abskmj/hukum/issues) to report a bug or suggest an improvement. Feel free to contribute to the code or documentation by raising a pull request.
