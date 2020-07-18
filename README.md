@@ -15,7 +15,7 @@ hukum
 ```
 
 # How it works?
-Hukum uses [Github Actions API](https://developer.github.com/v3/actions/) to get the related workflow to the recent git push and its status. It keeps on calling the APIs every 1 second to update the status on the terminal.
+Hukum uses [Github Actions API](https://docs.github.com/en/rest/reference/actions) to get the related workflow to the recent git push and its status. It keeps on calling the APIs every 1 second to update the status on the terminal.
 
 Below is a sample output for one of the workflows.
 
@@ -53,7 +53,7 @@ Hukum can work out of the box without any configuration. However, it provides a 
 HUKUM_GITHUB_TOKEN=<token>
 ```
 
-Hukum uses [Github Actions API](https://developer.github.com/v3/actions/). It is possible to use these APIs without any authentication for public repositories. However, for unauthenticated requests, the rate limit allows for up to 60 requests per hour (Details at [developer.github.com](https://developer.github.com/v3/#rate-limiting)) which can exhaust quickly. Authenticated requests have higher limits, up to 5000 requests per hour.
+Hukum uses [Github Actions API](https://docs.github.com/en/rest/reference/actions). It is possible to use these APIs without any authentication for public repositories. However, for unauthenticated requests, the rate limit allows for up to 60 requests per hour (Details at [docs.github.com](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting)) which can exhaust quickly. Authenticated requests have higher limits, up to 5000 requests per hour.
 
 
 You can follow these steps at [docs.github.com](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) to create a personal token.
