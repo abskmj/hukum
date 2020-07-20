@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0]
+### Added
+- Add needed scope for the Github personal token to the documentation.
+- Add support for multiple workflows. Prints the latest active step for each workflow.
+```
+   Update a draft
+     ✔ gitlab 17s
+       ✔ Complete job 0s
+     ✔ deploy 15s
+       ✔ Complete job 0s
+``` 
+
 ## [1.2.0]
 ### Added
 - Add a Github Action workflow to mirror codebase to a private Gitlab repository.
