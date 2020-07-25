@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.4.0]
+### Added
+- Add the workflow name and link to the output.
+```
+Update a draft
+     Mirror to Gitlab (https://github.com/abskmj/notes/actions/runs/174602505)
+     ✔ gitlab 17s
+       ✔ Complete job 0s
+     Deploy to GH Pages (https://github.com/abskmj/notes/actions/runs/174602501)
+     ✔ deploy 15s
+       ✔ Complete job 0s
+```
+### Fixed
+- Fix repository owner and name detection for some remote URLs using a regular expression.
+```
+/github.com[/:](.*?)\/(.*?)\.git$/g
+```
+
 ## [1.3.0]
 ### Added
 - Add needed scope for the Github personal token to the documentation.
