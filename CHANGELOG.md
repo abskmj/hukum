@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.5.0]
+### Fixed
+- Fix progress for a push that triggered a single workflow but multiple jobs.
+
 ## [1.4.0]
 ### Added
 - Add the workflow name and link to the output.
