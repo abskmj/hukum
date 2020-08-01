@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.5.1]
+### Fixed
+- Fix previous implementation which used `.matchAll()`. This method is available in Node.js 12 or later versions. This broke `hukum` for older versions.
+
 ## [1.5.0]
 ### Fixed
 - Fix progress for a push that triggered a single workflow but multiple jobs.
