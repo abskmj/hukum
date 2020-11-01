@@ -1,4 +1,4 @@
-![npm (scoped)](https://img.shields.io/npm/v/hukum?label=NPM) ![NPM](https://img.shields.io/npm/l/hukum?label=License) ![npm](https://img.shields.io/npm/dt/hukum?label=Downloads)
+![npm (scoped)](https://img.shields.io/npm/v/hukum?label=NPM) ![NPM](https://img.shields.io/npm/l/hukum?label=License) ![npm](https://img.shields.io/npm/dt/hukum?label=Downloads) [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&color=red&logo=GitHub)](https://github.com/abskmj/hukum)
 
 # Hukum - Displays Github Action progress in terminal
 Hukum is an NPM module that displays Github Action (GA) progress in the terminal. It works for workflows that run when a commit is pushed to Github repo. Once a commit is pushed, Hukum will print status updates in realtime.
@@ -61,5 +61,13 @@ You can follow these steps at [docs.github.com](https://docs.github.com/en/githu
 # Fixes & Improvements
 Head over to the issues tab at [github.com](https://github.com/abskmj/hukum/issues) to report a bug or suggest an improvement. Feel free to contribute to the code or documentation by raising a pull request.
 
-# Changelog
-The changelog is available at [CHANGELOG.md](CHANGELOG.md)
+# Sponsor / Support
+If you find the project interesting or helpful, please consider sponsoring or supporting it at [github.com](https://github.com/abskmj/hukum).
+
+# Links
+- [NPM Repository](https://www.npmjs.com/package/hukum)
+- [Changelog](https://github.com/abskmj/hukum/releases)
+- [Report an issue](https://github.com/abskmj/hukum/issues)
+- [Source Code](https://github.com/abskmj/hukum)
+- [License](https://github.com/abskmj/hukum/blob/master/LICENSE)
+- [Sponsor](https://github.com/abskmj/hukum)
