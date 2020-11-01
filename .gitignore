@@ -1,2 +1,4 @@
 node_modules
 .hukumrc
+.nyc_output
+coverage
