@@ -1,6 +1,6 @@
 {
   "name": "hukum",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "An NPM module that displays Github Action progress in the terminal and aims to improve your development experience by printing status in realtime.",
   "keywords": [
     "github-actions",
