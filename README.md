@@ -33,7 +33,7 @@ Below is a sample output for one of the workflows.
 ```
 
 # Configuration
-Hukum can work out of the box without any configuration. However, it provides a few configuration options. Include a `.hukumrc` file in the root of the project with the following contents or set the below environment variables.
+Hukum can work out of the box without any configuration. However, it provides a few configuration options. Include a `.hukumrc` file in your home directory or the root of the project with the following contents or set the below environment variables.
 
 ```json
 {
