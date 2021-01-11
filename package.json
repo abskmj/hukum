@@ -23,7 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "ansi-colors": "^4.1.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "draftlog": "^1.0.12",
     "figures": "^3.2.0",
     "log-symbols": "^4.0.0",
