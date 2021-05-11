@@ -26,7 +26,7 @@
     "axios": "^0.21.1",
     "draftlog": "^1.0.12",
     "figures": "^3.2.0",
-    "log-symbols": "^4.0.0",
+    "log-symbols": "^5.0.0",
     "moment": "^2.29.1",
     "rcfile": "^1.0.3",
     "simple-git": "^2.35.0",
@@ -36,7 +36,7 @@
     "chai": "^4.3.0",
     "mocha": "^8.3.0",
     "nyc": "^15.1.0",
-    "sinon": "^9.2.4",
+    "sinon": "^10.0.0",
     "standard": "^16.0.3"
   }
 }
